@@ -21,7 +21,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 navbar = dbc.NavbarSimple(
     children=[
-        dbc.NavItem(dbc.NavLink("Link", href="#")),
+        dbc.NavItem(dbc.NavLink("Link", href="https://github.com/minghao51/iris_similar")),
         # html.Button('Data Quality Check', id='data-quality-val', n_clicks=0),
         dbc.DropdownMenu(
             nav=True,
@@ -222,7 +222,7 @@ def update_graph(neighbor_slider,
     Y,X = prep_model(df, target)
 
     # dist measure
-    df_final = dist_measure(X, Y, input_x, distance_ctl, dim_ctl)
+    df_final = dist_measure(X, Y, input_x, distance_ctl, dim_ctl, neighbor_slider)
 
     # columns from dimension control 
     if dim_ctl == 3:
