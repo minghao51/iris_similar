@@ -1,0 +1,9 @@
+test_data_completeness (__main__.IrisQuality) ... ok
+test_duplication (__main__.IrisQuality) ... ok
+test_missing_data (__main__.IrisQuality) ... ok
+test_positive (__main__.IrisQuality) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.866s
+
+OK
