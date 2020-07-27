@@ -4,9 +4,9 @@
 
 ## Resources
 
-- GitHub Repo (where all the scripts for the app, python, Dockerfile, Slides, Docs can be found)
-- Google Colab (used for the development of python scripts)
-- Deployed Web App (the web is deployed through via docker on GCP cloud run)
+- [GitHub Repo](https://github.com/minghao51/iris_similar) (where all the scripts for the app, python, Dockerfile, Slides, Docs can be found)
+- [Google Colab](https://colab.research.google.com/drive/1n3ghm1LyYxwMFhtdcpi8lEa2yOnPGmOX?usp=sharing) (used for the development of python scripts)
+- [Deployed Web App](https://irissimilar-jdc7q5tvtq-as.a.run.app/) (the web is deployed through via docker on GCP cloud run)
 
 ## Context
 Please refer to the files within Slides and Docs folder for information on the background.
@@ -62,6 +62,6 @@ cat data_quality.output
 ```
 
 ## Open-sourced tools used
-- Dash (for the react based web components, and Plotly charts)
+- [Dash](https://plotly.com/dash/) (for the react based web components, and Plotly charts)
 - Python
-- Docker (To construct the environment, deployment)
+- [Docker](https://www.docker.com/) (To construct the environment, deployment)
